@@ -1,6 +1,7 @@
 # https://deploymentresearch.com/Research/Post/650/Command-line-options-for-Software-Center
+# https://github.com/Windos/BurntToast/tree/master/Help
 # https://www.youtube.com/watch?v=qAnKMu2v3Bk
-
+# https://smsagent.blog/2018/06/15/using-windows-10-toast-notifications-with-configmgr-application-deployments/
 
 $Text1 = New-BTText -Text 'Windows Updates'
 $Text2 = New-BTText -Text 'There are updates available for your workstation.  Please install them as soon as possible.'
