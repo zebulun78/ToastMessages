@@ -6,7 +6,7 @@
 $Text1 = New-BTText -Text 'Hello There!'
 $Text2 = New-BTText -Text 'This is a snippet of information that you can give to the user. Please make this brief.'
 
-$Image = New-BTImage -Source "$PSScriptRoot\DeploymentGeek.ico" -AppLogoOverride -Crop None
+$Image = New-BTImage -Source "https://github.com/zebulun78/ToastMessages/raw/master/DeploymentGeek.ico" -AppLogoOverride -Crop None
 
 $Binding1 = New-BTBinding -Children $Text1, $Text2 -AppLogoOverride $Image
 
